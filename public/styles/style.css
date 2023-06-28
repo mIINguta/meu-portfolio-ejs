@@ -61,19 +61,17 @@ section{
     display: flex;
     text-align: justify;
     align-items: center;
-    height: 100vh;
     justify-content: space-evenly;
     color: white;
     flex-wrap: wrap;
+    height: 100vh;
 }
 footer{
    display: flex;
-   padding: 10px;
    justify-content: center;
    border-top: 1px solid #151515;
-   margin-top: 10px;
    align-items: center;
-   color: white
+   color: white;
 }
 .active{
     display: block;
@@ -94,7 +92,6 @@ footer{
 @media (max-width: 860px) {
    section{
        padding: 70px 10px 10px 10px;
-       height: 100vh;
     } 
     header nav{
         text-align: center;

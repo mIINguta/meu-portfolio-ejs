@@ -1,6 +1,5 @@
-
 .texto-ap {
-     width: 600px;
+     width: 65%;
 }
 .texto-ap h1, .texto-ap h3{
     font-family: 'Cormorant Garamond', serif;
@@ -12,14 +11,23 @@
    margin-top: 15px;
 }
 .code-img {
-    width: 350px;
+    width: 30%;
+    height: 50%;
 }
 .code-img img{
     border-radius: 10%;
     width: 100%;
-
+    height: 100%;
 }
 .icones-ap i:hover{
     transform: translateY(8px);
     transition: 1s;
+}
+@media (max-width:860px){
+    .code-img{
+        width: 50%;
+    }
+    .apresentacao-apS{
+        height: 100%;
+    }
 }

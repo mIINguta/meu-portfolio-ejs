@@ -32,6 +32,7 @@ function addDesc(cards){
     let descprojP = document.querySelector('.descP');
     let imgP = document.querySelector('.imgP');
     let browserBtn = document.querySelector('.browser-btn');
+    let githubBtn = document.querySelector('.github-btn');
     iconsproj.style="display: block;"
 
 
@@ -39,13 +40,15 @@ function addDesc(cards){
     titleP.innerText = cards.title;
     descprojP.innerText = "Feito no ano de 2023, esse é um dos meus  projetos mais atuais. Para o desenvolvimento desse site, foram usados HTML, CSS e Java Script. Além do desenvolvimento do site, fui responsável por capturar as imagens e produzir parte dos textos informativos.";
     imgP.src = "/imagens/projetos/proj-mm.svg";
-    browserBtn.href= "https://miinguta.github.io/projeto-site-mmac/";      
+    browserBtn.href= "https://miinguta.github.io/projeto-site-mmac/"; 
+    githubBtn.href =  "https://github.com/mIINguta/projeto-site-mmac";    
 }
     else if(cards.title == "Meu Portfólio"){
         titleP.innerText = cards.title;
         descprojP.innerText = "Este foi o meu primeiro portfólio criado, a fim de criar minha marca e por em práticas meus conhecimentos. Utilizei HTML, Css e Java Script para desenvolve-lo.";
         imgP.src = "/imagens/projetos/proj-portfolio.svg";
         browserBtn.href= "https://miinguta.github.io/meu-portfolio/";
+        githubBtn.href =  "https://github.com/mIINguta/meu-portfolio";  
 }
     else {
         cards.title == "Projeto TCC - Regue Me"
@@ -53,6 +56,7 @@ function addDesc(cards){
             descprojP.innerText = 'O Regue-me foi um aplicativo feito para meu TCC, juntamente com dois amigos o objetivo era instruir e motivar as pessoas a cuidar de suas plantas de forma gamificada. Foi usado a plataforma Kodular para o desenvolvimento do aplicativo.';
             imgP.src = "/imagens/projetos/proj-regueme.svg";  
             browserBtn.href= "https://docs.google.com/presentation/d/1fX2UCnPg4EFf3Mliwj1jYGAkEN_RvWkW/edit?usp=drive_link&ouid=106608748334212502174&rtpof=true&sd=true";
+            githubBtn.style = "display: none;"
 }
 };
 //manipulando botão return
