@@ -1,0 +1,16 @@
+.texto-ap-i h1,.texto-ap-i h3{ 
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+} 
+.texto-ap-i h1{
+    font-size: 36px;
+}
+.eu-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.eu-img img:hover{
+    box-shadow: 1px 1px 10px 1px #151515;
+    transition: 1s all ease;
+}
+

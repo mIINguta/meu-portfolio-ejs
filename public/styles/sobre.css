@@ -1,0 +1,25 @@
+
+.texto-ap {
+     width: 600px;
+}
+.texto-ap h1, .texto-ap h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    border-bottom: 0.5px solid #151515;
+}
+.apresentacao-apS a{
+   margin-top: 15px;
+}
+.code-img {
+    width: 350px;
+}
+.code-img img{
+    border-radius: 10%;
+    width: 100%;
+
+}
+.icones-ap i:hover{
+    transform: translateY(8px);
+    transition: 1s;
+}
