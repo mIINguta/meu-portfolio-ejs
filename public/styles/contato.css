@@ -1,0 +1,11 @@
+.sec-contatos {
+    flex-direction: column;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+}
+.sec-contatos div{
+    text-align: center;
+}
+.sec-contatos div i{
+    font-size: 80px;
+}
