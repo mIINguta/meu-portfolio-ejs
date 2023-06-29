@@ -9,3 +9,16 @@
 .sec-contatos div i{
     font-size: 80px;
 }
+.sec-contatos > div > .icones-ap > ul> li> a> .lkd{
+    color: #0e76a8;
+}
+.sec-contatos > div > .icones-ap > ul> li> a> .gthb{
+    color: #e8eaea;
+}
+.sec-contatos > div > .icones-ap > ul> li> a> .inst{
+    color: #E1306C;
+}
+.sec-contatos > div > .icones-ap > ul> li> a> .mail{
+    color: #F2A60C;
+}
+
