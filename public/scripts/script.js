@@ -54,6 +54,13 @@ function addDesc(cards){
         imgP.src = "/imagens/projetos/proj-portfolio.svg";
         browserBtn.href= "https://miinguta.github.io/meu-portfolio/";
         githubBtn.href =  "https://github.com/mIINguta/meu-portfolio";  
+} 
+else if(cards.title == "Todo List"){
+        descprojP.innerText = "Todo List criada para auxiliar nas minhas tarefas diárias. Utilizei HTML, Css e Java Script para desenvolve-lo.";
+        imgP.src = "/imagens/projetos/proj-todo-list.svg";
+        browserBtn.href= "https://miinguta.github.io/todo-list/";
+        githubBtn.href =  "https://github.com/mIINguta/todo-list";  
+
 }
     else {
         cards.title == "Projeto TCC - Regue Me"
